@@ -510,6 +510,7 @@ html, body {
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
+    z-index: 1;
     left: 0;
     letter-spacing: 0;
     line-height: 32px;
@@ -995,6 +996,7 @@ html, body {
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
+    z-index: 1;
     left: 0;
     letter-spacing: 0;
     line-height: 32px;
@@ -1010,8 +1012,18 @@ html, body {
     font-weight: 400;
     letter-spacing: 0;
     line-height: 32px;
-    margin-top: -1px;
+    margin: 0;
     position: relative;
     width: 648.24px;
+  }
+
+  .strip {
+    background-color: #ffd042;
+    height: 16px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    position: absolute;
+    width: 303px;
   }
   /* BLOCK 8 */
